@@ -11,5 +11,5 @@ export function toRadians(angle: number): number {
 }
 
 export function round(value: number): number {
-    return ~~(value);
+    return Math.round(value);
 }
